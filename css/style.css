@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.debug{
+    background-color: rgba(255,0,0,.2);
+    border: 1px solid black;
+    min-height: 100px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#section-top{
+    padding-top: 40px;
+    text-align: center;
+}
+
+#section-top h1{
+    color: #E53170;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#section-cards{
+    padding-top: 40px;
+}
+
+.row .col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 20px;
+    min-width: 350px;
+}
+.card{
+    background-color: #0F0E17;
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}
+
+.card img, 
+.card .contents{
+    float: left;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card .contents{
+    padding: 10px 15px;;
+}
+
+.card .contents h3,
+.card .contents span{
+    margin-bottom: 5px;
+}
+
+.card .contents .role{
+    display: block;
+    font-size: 1rem;
+}
+
+.card .contents  a{
+    color: #5FC3EB;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    font-size: .9rem;
+    padding: 40px;
+}
